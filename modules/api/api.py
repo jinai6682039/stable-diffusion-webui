@@ -430,7 +430,12 @@ class Api:
 
     def text2imgapi(self, txt2imgreq: models.StableDiffusionTxt2ImgProcessingAPI):
 <<<<<<< HEAD
+<<<<<<< HEAD
         print("------test-------")
+=======
+        task_id = txt2imgreq.force_task_id or create_task_id("txt2img")
+
+>>>>>>> origin/master
 =======
         task_id = txt2imgreq.force_task_id or create_task_id("txt2img")
 
